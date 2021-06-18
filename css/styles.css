@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*--------MENU--------*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+    background: #F9F9F9;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+nav ul li a{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn1 button{
+    color: white;
+    background: #ff6776;
+    width: 170px;
+    padding: 20px 24px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: #1E5CFD;
+}
+
+.btn1 button:hover{
+    background: #1B234A;
+}
+
+/*---------BANNER---------*/
+
+.banner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    background: #1B234A;
+}
+.banner1 img{
+    margin-left: 10%;
+}
+
+.txt1{
+    padding: 0 30px;
+    margin-right: 10%;
+}
+
+.banner1 .txt1 h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #3FECE2;
+}
+
+.banner1 .txt1 p{
+    padding: 70px 0;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.banner1 .txt1 .btn2 button{
+    color: white;
+    background: #FF6776;
+    width: 200px;
+    padding: 14px 24px;
+    font-weight: normal;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner1 .txt1 .btn2 button:hover{
+    background: #1B234A;
+}
