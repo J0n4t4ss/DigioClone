@@ -48,7 +48,7 @@ nav ul li a:hover{
     background: #1B234A;
 }
 
-/*---------BANNER---------*/
+/*---------BANNER1---------*/
 
 .banner1{
     display: flex;
@@ -92,4 +92,22 @@ nav ul li a:hover{
 
 .banner1 .txt1 .btn2 button:hover{
     background: #1B234A;
+}
+
+/*---------BANNER2---------*/
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    background: #1B234A;
+}
+
+.banner2 img{
+    margin-left: 5%;
+}
+
+.banner2 .txt2{
+    margin-right: 5%;
 }
